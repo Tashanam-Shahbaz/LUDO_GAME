@@ -31,7 +31,7 @@ It contain a formula that returns the x,y co-ordinates of the mouse pointer.
 It calls the main_RED, main_BLUES,main_YELLOW, main_GREEN, funtion and pass the x,y coordinates of where the mouse clicked on window.
 ### Display_menu:
 This function the menu.
-##CLASSESS:
+## CLASSESS:
 ### BOX , YBOX , GBOX, BBOX
 This classes contain the information about positions of the pieces, either the pieces are double on each
 other or not and do swap when it is required.
