@@ -1,6 +1,6 @@
 # LUDO_GAME
 This is 2D Ludo game for four player. Its game rules are similar with the real world game. At the end of the game a message is display about the winner. This game support gif format images.
-#Turn:
+### Turn:
 Prints whose turn is it on the root window.
 #Roll:
 Rolling function that rolls a dice, goes again if it’s a six and display it on root window
