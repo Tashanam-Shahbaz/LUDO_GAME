@@ -1,8 +1,8 @@
 # LUDO_GAME
 This is 2D Ludo game for four player. Its game rules are similar with the real world game. At the end of the game a message is display about the winner. This game support gif format images.
-##FUNTIONS
+## FUNTIONS
 ### Turn:
-Prints whose turn is it on the root window.
+Display whose turn is it on the root window.
 ### Roll:
 Rolling function that rolls a dice, goes again if it’s a six and display it on root window
 ### Clear:
@@ -14,23 +14,23 @@ Function that determines if the other's piece of different color can be killed
 ### Doublecheck:
 If we have two same pieces then they make it double like one on the top of other
 ### Main:
-This method creates all the necessary list of co-ordinates of all the colored boxes, excluding home and
+This function creates all the necessary list of co-ordinates of all the colored boxes, excluding home and
 stop, home positions for the objects of classes (BOX, YBOX, GBOX, BBOX). Place all the pieces at their
 home position. Also Populates list of home boxes, colored boxes, game pieces and white boxes.
 ### Instruction:
 It display all the rules for the user when user click the button.
 ### main_RED:
-This method allows the red payer to play.
+This function allows the red payer to play.
 ### Main_YELLOW:
-This method allows the yellow player to play.
+This function allows the yellow player to play.
 ### Main_GREEN:
-This method allows the green player to play.
+This function allows the green player to play.
 ### mouse_pointer:
 It contain a formula that returns the x,y co-ordinates of the mouse pointer.
 ### Left Click:
-It calls the main_RED, main_BLUES,main_YELLOW, main_GREEN, funtion and pass the x,y coordinates.
+It calls the main_RED, main_BLUES,main_YELLOW, main_GREEN, funtion and pass the x,y coordinates of where the mouse clicked on window.
 ### Display_menu:
-This method the menu.
+This function the menu.
 ##CLASSESS:
 ### BOX , YBOX , GBOX, BBOX
 This classes contain the information about positions of the pieces, either the pieces are double on each
